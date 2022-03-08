@@ -1,0 +1,68 @@
+.page-container {
+    background-color: white;
+    border-radius: 25px;
+    padding: 40px;
+   }
+   
+   .guessing-block-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px 20px;
+    flex-flow: wrap;
+   }
+   
+   .guessing-block {
+    background-color: #e1e1e1;
+    width: 6%;
+   }
+   
+   .guessing-block-space {
+    background-color: #ffb74d;
+    width: 6%;
+   }
+   
+   .beak-line {
+    flex-basis: 100%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+   }
+   
+   .break-line-invisible {
+    display: none;
+   }
+   
+   #scrambled-word {
+    font-size: 65px;
+    color: rgb(14, 14, 136);
+    margin: 50px;
+   }
+   
+   .instructions {
+    font-size: 40px;
+    margin: 50px;
+   }
+   
+   #score {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px;
+   }
+   
+   button {
+    background-color: #4caf50;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: transparent;
+    font-size: 20px;
+   }
+   
+   #next-button-container {
+    margin: 20px;
+   }
+   
+   .hide-toggle {
+    display: none;
+   }
+   

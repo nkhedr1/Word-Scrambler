@@ -1,0 +1,23 @@
+input {
+    background-color: transparent;
+    height: 70px;
+    border: 0;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    width: 97%;
+    text-align: center;
+   }
+   
+   .guessing-block-correct {
+    background-color: #4caf50;
+   }
+   
+   .guessing-block-incorrect {
+    background-color: #ffb74d;
+   }
+   
+   .guessing-block-container1 {
+    padding: 1px;
+   }
+   
